@@ -1,0 +1,200 @@
+
+.body {
+    background-image: url(../imagenes/body.jpg);
+    background-size: 100%;
+}
+
+.my-navbar {
+    background: #370542 ! important;
+}
+
+.titulo {
+    color: #ffffff;
+}
+ul{list-style:none;}
+
+
+.descripcion {
+    color: #9E97B9;
+}
+
+#slider {
+    height: 450px;
+    overflow: hidden;
+}
+
+#slider img{
+    height: 450px;
+}
+
+.icn{
+    font-size: 25px;
+    font-weight: bold;
+    color: #D47039;
+    height: 20px;
+    width: 20px;
+}
+
+.des {
+    margin-left: 35px;
+}
+
+.titulo-uno {
+    color: orange;
+}
+
+.card {
+    height: 350px;
+}
+
+.btn-card{
+    position:absolute;
+    bottom:0px;
+    border-color: #370542;
+    background-color:  #040505;
+    right:0px;
+    opacity: 0.5;  
+}
+
+
+.jumbotron {
+    background: #393a47;
+    color: #ffffff;
+    padding: 50px;
+}
+
+
+
+h1{
+    font-size: 36px;
+    color: #555;
+    font-weight: bold;
+}
+h3{
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+h5 {
+    text-align: center;
+    color: #9697A2;
+}
+
+#team img{
+    margin-left: 25%;
+}
+
+#team i{
+    font-size: 26px;
+    color: #555;
+}
+#team p{
+    font-weight: 500;
+}
+#team .card{
+    border-radius: 0;
+    background: #393a47;
+    box-shadow:  5px 5px 15px #C1BDDB;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+#team .card:hover{
+    background:  #C1BDDB;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+
+#team .card:hover h3, #team .card:hover i{
+    color: #fff;
+}
+
+#footer {
+    width: 100%;
+    height: 470px;
+    margin-top: 170px;
+    padding-top: 25px;
+    background: #393a47;
+    color: white;
+    overflow: hidden;
+}
+
+#footer .wrap > div {
+    float: left;
+    text-align: center;
+    color: white;
+    font-family: "TrebuchetMS";
+}
+
+#footer #parrafo{
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    transition: all 300ms;
+}
+
+#footer h5 {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#footer ul {
+    text-align: left;
+    margin: 5px;
+    padding-left: 0px;
+    font-size: 20px;
+}
+
+#footer ul li {
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#footer ul li a{
+    display:  block;
+    height: 40px;
+}
+
+#footer img {
+    width: 90%;
+    height: 310px;
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px gray;
+   margin-bottom: 15px;
+}
+
+#footer .icn-d{
+    color: #5A80FB;
+    font-size: 20px;
+    margin: 15px;
+    
+}
+
+.pie {
+    height: 50px;
+    background: black;
+    font-size: 20px;
+    color: #9697A2;
+    text-align: center;
+}
+
+.producto {
+    color: red;
+}
+
+#prod li{
+    color: white;
+    margin-top: 0px;
+    padding: 1px;
+    border-right: 1px solid #ccc;
+}
